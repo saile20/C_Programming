@@ -3,6 +3,9 @@
 
 #include <stdio.h>
 // Telling the compiler to include the standard input output header file before compiling the program.
+// anything starting with a # is called a preprocessor directive and is a 
+//   command to the compiler to do something before compiling the program.
+
 
 //main function - where the execution of program begins
 int main()
@@ -22,6 +25,8 @@ int main()
 
   Here, only one library is used which is stdio.h. 
   This library contains the definition of the printf function. 
+  This library is not a part of the C language 
+    but is a part of the C standard library.
 
   There is only one function in this program which is the main function.
   The main function is the entry point of the program and is mandatory for all C programs.
